@@ -1,0 +1,68 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Main container styles */
+  #bookForm, #bookDetails, #ownershipTransfer {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 80%;
+  }
+  
+  /* Input field styles */
+  input[type="text"], input[type="number"] {
+    margin: 5px;
+    padding: 5px;
+    width: calc(100% - 12px); /* Adjusting input width */
+  }
+  
+  /* Button styles */
+  button {
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #007bff; /* Default button color */
+    color: #fff; /* Text color */
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Hover button color */
+  }
+  
+  /* Book details container styles */
+  #bookDetails {
+    margin-top: 40px; /* Adjusting margin */
+  }
+  
+  /* Book details paragraph styles */
+  #bookDetails p {
+    margin-bottom: 10px; /* Adjusting margin */
+  }
+  
+  /* Span styles */
+  span {
+    font-weight: bold; /* Making text bold */
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    #bookForm, #bookDetails, #ownershipTransfer {
+      width: 90%; /* Adjusting width for smaller screens */
+    }
+  }
+  
